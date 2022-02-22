@@ -1,4 +1,14 @@
-## comandos-Linux-Espaba
+
+<p align="center">
+:shipit:comandos-Linux-Espaba :penguin:
+</p>
+
+  
+
+
+    
+
+
 | Comando | Descripción | Ejemplo |
 | ------------- | :-------------: | ------------- |
 | man | Mostrar el interfaz del manual con todas sus funciones   | **man man**  para ver las utilidades del paginador del manual  |
@@ -7,3 +17,8 @@
 | ip addr  | Mostrar dirreción IP | **ip addr**  para mostrar en consola la dirección IPv4 y la IPv6 |
 | apt  | Instalar, eliminar, actualizar software | **apt install**  para instalar algún paquete o aplicación que se necesite |
 | sudo | Brindar permiso de administrador | **sudo**  antes de algún comando como **sudo apt install**  para brindar servicios de administrador a la instalación  |
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/98858991/155067320-9354bf78-61bb-4901-85aa-439bc629593a.gif" alt="animated" />
+</p>
+
