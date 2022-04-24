@@ -22,9 +22,9 @@
 | mv | Mover archivos | para mover datos, similar al comando **cp** se escribe **mv + archivo/directorio + nuevo destino**|
 | rm | Remover archivos | para ejecutar este archivo simplemente se  escribe **rm** antes del nombre del archivo |
 | rmdir | Remover directorios | para remover directorios, se ejecuta **rmdir** antes del nombre del directorio |
-| mkdir |
-| chmod | tabla de permisos de archivo |
-| chown |
+| mkdir | Crear directorios | para crear un directorio, se debe ejecutar **mkdir + nombre de nuevo directorio** |
+| chmod | Cambiar permisos de lectura/escritura/ejecución | Se debe tener conocimiento sobre la tabla de permisos de archivo para jugar con los números binarios. Por ejemplo si se ejecuta **chmod 777 + archivo/directorio** otorga todos los permisos al usuario |
+| chown | Cambiar propietario de directorio/archivo | 
 | cd |
 | ls |
 | ll |
