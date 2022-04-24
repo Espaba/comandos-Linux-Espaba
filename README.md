@@ -17,11 +17,11 @@
 | ip addr  | Mostrar dirreción IP | **ip addr**  para mostrar en consola la dirección IPv4 y la IPv6 |
 | apt  | Instalar, eliminar, actualizar software | **apt install**  para instalar algún paquete o aplicación que se necesite |
 | sudo | Brindar permiso de administrador | **sudo**  antes de algún comando como **sudo apt install**  para brindar servicios de administrador a la instalación  |
-| clear |
-| cp |
-| mv |
-| rm |
-| rmdir |
+| clear | Limpiar terminal de comandos | **clear** borra todos los comandos que se han escrito hasta el momento en la consola. No elimina el historial de comandos|
+| cp | Copiar archivos o directorios | para copiar datos que se encuentren en alguna dirección se escribe **cp + archivo/directorio + nuevo destino**|
+| mv | Mover archivos | para mover datos, similar al comando **cp** se escribe **mv + archivo/directorio + nuevo destino**|
+| rm | Remover archivos | para ejecutar este archivo simplemente se  escribe **rm** antes del nombre del archivo |
+| rmdir | Remover directorios | para remover directorios, se ejecuta **rmdir** antes del nombre del directorio |
 | mkdir |
 | chmod | tabla de permisos de archivo |
 | chown |
