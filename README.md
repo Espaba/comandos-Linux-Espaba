@@ -24,10 +24,10 @@
 | rmdir | Remover directorios | para remover directorios, se ejecuta **rmdir** antes del nombre del directorio |
 | mkdir | Crear directorios | para crear un directorio, se debe ejecutar **mkdir + nombre de nuevo directorio** |
 | chmod | Cambiar permisos de lectura/escritura/ejecución | Se debe tener conocimiento sobre la tabla de permisos de archivo para jugar con los números binarios. Por ejemplo si se ejecuta **chmod 777 + archivo/directorio** otorga todos los permisos al usuario |
-| chown | Cambiar propietario de directorio/archivo | 
-| cd |
-| ls |
-| ll |
+| chown | Cambiar propietario de directorio/archivo | para cambiar la propiedad de un archivo o directorio se ejecuta **chown + propietario:propietario + archivo/directorio** |
+| cd | Cambiar de directorio | para poder ejecutar comandos desde algún directorio en específico, se debe ejecutar **cd + directorio** | 
+| ls | Mostrar contenido dentro del directorio actual | Si se desea ver el contenido que posee el directorio en que se encuentra, se ejecuta ls |
+| ll | 
 | ps -aux |
 | ps |
 | df - h| muestra el espacio usado en disco|
