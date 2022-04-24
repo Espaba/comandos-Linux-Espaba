@@ -21,14 +21,27 @@
 | cp |
 | mv |
 | rm |
+| rmdir |
 | mkdir |
 | chmod | tabla de permisos de archivo |
 | chown |
 | cd |
 | ls |
 | ll |
-| ps |
 | ps -aux |
+| ps |
+| df - h| muestra el espacio usado en disco|
+| kill -9$PID| 
+| pwd | muestra el directorio actual |
+| curl |
+| wget | Descargar archivos desde una URL |
+| find |
+| grep |
+| nmap |
+| useradd | 
+| touch |
+| cat |
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/98858991/155067320-9354bf78-61bb-4901-85aa-439bc629593a.gif" alt="animated" />
 </p>
