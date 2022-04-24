@@ -27,12 +27,12 @@
 | chown | Cambiar propietario de directorio/archivo | para cambiar la propiedad de un archivo o directorio se ejecuta **chown + propietario:propietario + archivo/directorio** |
 | cd | Cambiar de directorio | para poder ejecutar comandos desde algún directorio en específico, se debe ejecutar **cd + directorio** | 
 | ls | Mostrar contenido dentro del directorio actual | Si se desea ver el contenido que posee el directorio en que se encuentra, se ejecuta ls |
-| ll | 
-| ps -aux |
+| ll | Mostrar permisos/propietarios de archivos/directorios | cuando se ejecuta **ll** en el directorio actual, muestra todos los documentos con sus respectivos permisos y propietarios |
+| ps -aux | 
 | ps |
-| df - h| muestra el espacio usado en disco|
+| df - h| mostrar el espacio usado en disco|
 | kill -9$PID| 
-| pwd | muestra el directorio actual |
+| pwd | mostrat el directorio actual |
 | curl |
 | wget | Descargar archivos desde una URL |
 | find |
