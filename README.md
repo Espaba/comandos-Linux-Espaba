@@ -58,6 +58,10 @@
 | vim | Editar texto | similar a nano, pero cuenta con unas diferencias en aspecto visual y, principalmente, en edición. Para editar un texto con (**vim + dirección del archivo**), se debe simplemente mover al espacio que se desea editar y comenzar a escribir. Para salir, se utiliza el sigo **: + q**. | 
 | uname | Mostrar información de núcleo | si se desea obtener información del kernel, por ejemplo, se debe utilizar el comando **uname** |
 | cronab -e | Modificar tiempo de ejecución | **crontab -e** permite modificar el momento en el que se desea ejecutar un script, por ejemplo, con el demonio Cron. | 
+| fdisk | Manejar particiones | el comando se puede combinar con diferentes letras para ver, crear, eliminar, etc, particiones de un disco. Por ejemplo, utilizando **fdisk + nombre de partición + d** elimina la partición |
+| reboot | Reiniciar Linux | a veces es requerido reiniciar la máquina Linux, para esto se puede utilizar el comando **sudo reboot** |
+| shutdown now | Apagar Linux | si es necesario que se debe apagar la máquina de inmediato, se utiliza el comando **sudo shutdown now** |
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/98858991/155067320-9354bf78-61bb-4901-85aa-439bc629593a.gif" alt="animated" />
