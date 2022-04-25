@@ -14,6 +14,7 @@
 | man | Mostrar el interfaz del manual con todas sus funciones   | **man man**  para ver las utilidades del paginador del manual  |
 | passwd | Cambiar la contraseña | **passwd**  en la terminal de algun usuario para cmabiar la contraseña del mismo |
 | whoami | Mostrar nombre de usuarion | **whoami**  en la terminal para ver cuál es el nombre del usuario actual  |
+| echo | Mostrar línea de Strings | si se desea hacer una impresión y ver como luce en consola, se puede utilizar **echo + grupo de Strings**. |
 | ip addr  | Mostrar dirreción IP | **ip addr**  para mostrar en consola la dirección IPv4 y la IPv6 |
 | apt  | Instalar, eliminar, actualizar software | **apt install**  para instalar algún paquete o aplicación que se necesite |
 | sudo | Brindar permiso de administrador | **sudo**  antes de algún comando como **sudo apt install**  para brindar servicios de administrador a la instalación  |
@@ -53,6 +54,7 @@
 | nano | Editar texto | para acceder y ver el contenido de un archivo de texto se puede utilizar el comando **nano + dirección de archivo**. Para editar, se debe presionar la tecla 'insert' y posteriormente proceder a editar. Para salir se utiliza 'Ctrl+x'. | 
 | vim | Editar texto | similar a nano, pero cuenta con unas diferencias en aspecto visual y, principalmente, en edición. Para editar un texto con (**vim + dirección del archivo**), se debe simplemente mover al espacio que se desea editar y comenzar a escribir. Para salir, se utiliza el sigo **: + q**. | 
 | uname | Mostrar información de núcleo | si se desea obtener información del kernel, por ejemplo, se debe utilizar el comando **uname** |
+| cronab -e | Modificar tiempo de ejecución | **crontab -e** permite modificar el momento en el que se desea ejecutar un script, por ejemplo, con el demonio Cron. | 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/98858991/155067320-9354bf78-61bb-4901-85aa-439bc629593a.gif" alt="animated" />
