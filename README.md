@@ -17,11 +17,17 @@
 | ip addr  | Mostrar dirreción IP | **ip addr**  para mostrar en consola la dirección IPv4 y la IPv6 |
 | apt  | Instalar, eliminar, actualizar software | **apt install**  para instalar algún paquete o aplicación que se necesite |
 | sudo | Brindar permiso de administrador | **sudo**  antes de algún comando como **sudo apt install**  para brindar servicios de administrador a la instalación  |
+| sudo su| Cambiar a modo administrador | si se desea tener siempre el contro de usuario 'root' sin tener que utilizar 'sudo' antes de cada comando, se puede usar el comando **sudo su** y se ingresa la contraseña de usuario(en caso de contar con una). |
 | clear | Limpiar terminal de comandos | **clear** borra todos los comandos que se han escrito hasta el momento en la consola. No elimina el historial de comandos|
+| history | Mostrar comando digitados | para conocer los últimos comandos que se ejecutaron recientemente, se utiliza el comando **history** |
 | exit | Salir de consola | para salir de la consola se cliquear en la 'x' en la ventana o se puede utilizar el comando **exit** |
 | cp | Copiar archivos o directorios | para copiar datos que se encuentren en alguna dirección se escribe **cp + archivo/directorio + nuevo destino**|
 | mv | Mover archivos | para mover datos, similar al comando **cp** se escribe **mv + archivo/directorio + nuevo destino**|
 | rm | Remover archivos | para ejecutar este archivo simplemente se  escribe **rm** antes del nombre del archivo |
+| gzip | Comprimir archivos | para comprimir un archivo .txt se puede utilizar el comando **gzip + nombre de archivo**. |
+| gunzip | Descomprimir archivos | similar al anterior comando, para descomprimir se utiliza el **gunzip + nombre de archivo**. |
+| tar | Comprimir/Descomprimir archivos | Cuando se necesita descomprimir un archivo, por ejemplo, se utiliza el comando **tar -xzf + nombre de archivo**. |
+| ln | Enlazar accesos director | si se desea tener un acceso directo de algun archivo o directorio se debe utilizar el comando **ln + dirección(archivo o directorio)**.
 | rmdir | Remover directorios | para remover directorios, se ejecuta **rmdir** antes del nombre del directorio |
 | mkdir | Crear directorios | para crear un directorio, se debe ejecutar **mkdir + nombre de nuevo directorio** |
 | chmod | Cambiar permisos de lectura/escritura/ejecución | Se debe tener conocimiento sobre la tabla de permisos de archivo para jugar con los números binarios. Por ejemplo si se ejecuta **chmod 777 + archivo/directorio** otorga todos los permisos al usuario |
@@ -43,8 +49,10 @@
 | passwd | Agregar contraseña | Cuando se desea configurar una contraseña para un usuario, se debe utilizar el comando **passwd + nombre de usuario** |
 | touch | Crear archivo | para crear un archivo sin contenido dentro, se puede utilizar el comando **touch + nombre del archivo**.
 | cat | Crear archivo | para crear un archivo con contenido, se utiliza el comando **cat + > + nombre de archivo**. Una vez ingresado el comando, se puede comenzar a escribir la información que se desea tener. Para salir del modo escritura, se debe presionar **Ctrl+d**. |
+| cat | Concatenar archivos | no solo se utiliza para crear archivos, también se pueden concatenar utilizando el comando **cat + archivo1.txt + > + archivo2.txt**. |
 | nano | Editar texto | para acceder y ver el contenido de un archivo de texto se puede utilizar el comando **nano + dirección de archivo**. Para editar, se debe presionar la tecla 'insert' y posteriormente proceder a editar. Para salir se utiliza 'Ctrl+x'. | 
 | vim | Editar texto | similar a nano, pero cuenta con unas diferencias en aspecto visual y, principalmente, en edición. Para editar un texto con (**vim + dirección del archivo**), se debe simplemente mover al espacio que se desea editar y comenzar a escribir. Para salir, se utiliza el sigo **: + q**. | 
+| uname | Mostrar información de núcleo | si se desea obtener información del kernel, por ejemplo, se debe utilizar el comando **uname** |
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/98858991/155067320-9354bf78-61bb-4901-85aa-439bc629593a.gif" alt="animated" />
