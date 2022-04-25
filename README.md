@@ -15,7 +15,10 @@
 | passwd | Cambiar la contraseña | **passwd**  en la terminal de algun usuario para cmabiar la contraseña del mismo |
 | whoami | Mostrar nombre de usuarion | **whoami**  en la terminal para ver cuál es el nombre del usuario actual  |
 | echo | Mostrar línea de Strings | si se desea hacer una impresión y ver como luce en consola, se puede utilizar **echo + grupo de Strings**. |
+| head -n | Mostrar líneas en archivo | para poder ver cuales son las primeras 'n' líneas de un archivo se ejecuta **head -n3(se quieren ver las primeras 3 líneas) + nombre del archivo**. |
+| tail -n | Mostra líneas en archivo | este comando es prácticamente igual al anterior, pero se pueden ver las últimas 'n' líneas de un archivo ejecutando **tail -n3 + nombre del archivo**. |
 | ip addr  | Mostrar dirreción IP | **ip addr**  para mostrar en consola la dirección IPv4 y la IPv6 |
+| ifconfi | Mostrar dirección IP | similar al comando anterior, ejecutar **ifconfig** en consola muestra información sobre la conexión de red. |
 | apt  | Instalar, eliminar, actualizar software | **apt install**  para instalar algún paquete o aplicación que se necesite |
 | sudo | Brindar permiso de administrador | **sudo**  antes de algún comando como **sudo apt install**  para brindar servicios de administrador a la instalación  |
 | sudo su| Cambiar a modo administrador | si se desea tener siempre el contro de usuario 'root' sin tener que utilizar 'sudo' antes de cada comando, se puede usar el comando **sudo su** y se ingresa la contraseña de usuario(en caso de contar con una). |
